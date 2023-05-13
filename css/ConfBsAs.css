@@ -1,0 +1,423 @@
+/* ESTILO DE LA PAGINA */
+
+/*»*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: rgba(53, 58, 64, 255);
+    font-family: sans-serif;
+    color: white;
+}
+
+/*BODY*/
+
+body {
+    background-color: white;
+    position: relative;
+    max-width: 1920px;
+    max-height: 1080px;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.img-codoacodo {
+    height: 50px;
+    width: 80px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.nav-link {
+    color: rgb(144, 145, 146);
+}
+
+
+/*SECTION*/
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
+
+.container-xxl {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+
+/*BANNER*/
+
+.data-ppal-1 {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Img/ba1.jpg');
+    width: 1920px;
+    height: 1080px;
+}
+
+.data-ppal-2 {
+    padding: 500px 100px 100px 1000px;
+    color: white;
+
+}
+
+/*ORADORES*/
+
+.operador-ppal-1 {
+    width: 1920px;
+    max-height: 1000px;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+.operador-ppal-2 {
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.operador-ppal-3 {
+    padding: 0px 100px 100px 200px;
+
+}
+
+.card {
+    max-width: 500px;
+    max-height: 800px;
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    max-width: 450px;
+    max-height: 450px;
+
+}
+
+.card-body {
+    color: black;
+    font-family: sans-serif;
+}
+
+.btn-secondary,
+.btn-danger,
+.btn-warning,
+.btn-info {
+    max-width: 120px;
+    max-height: 30px;
+    margin: 0%;
+    padding: 5px;
+}
+
+
+/*INFO*/
+
+.card-2 {
+    max-width: 970px;
+    max-height: 600px;
+}
+
+.card-img-honolulu {
+    padding: 0%;
+    margin: 0%;
+    max-width: 1920px;
+    max-height: 600px;
+}
+
+.card-3 {
+    max-width: 970px;
+    max-height: 600px;
+    background-color: rgba(53, 58, 64, 255);
+}
+
+.card-body-1 {
+    color: white;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.card-title {
+    padding-bottom: 5px;
+}
+
+/*FORM*/
+
+.orador-1 {
+    margin: 0%;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.orador-2 {
+    margin: 0%;
+    padding: 0px 600px 20px 600px;
+    /*background-color: burlywood;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.enviar-1 {
+    background-color: rgba(150, 201, 62, 255);
+    border-color: rgba(150, 201, 62, 255);
+    width: 690px;
+
+}
+
+
+/*FOOTER*/
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    background-color: antiquewhite;
+
+}
+
+.wrapper {
+    margin: 0%;
+    display: flex;
+    padding: 10px 0px 10px 100px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgba(30, 79, 109, 255);
+}
+
+/*RESPONSIVE*/
+
+@media(max-width: 1072px) {
+    /*BODY*/
+
+    body {
+        background-color: white;
+        position: relative;
+        max-width: 1072px;
+        padding-bottom: 3em;
+        min-height: 100vh;
+    }
+
+    /*SECTION*/
+    * {
+        max-width: 1072px;
+    }
+
+    .container-xxl {
+        max-width: 1072px;
+    }
+
+    /*BANNER*/
+
+    .data-ppal-1 {
+        width: 1072px;
+    }
+
+    .data-ppal-2 {
+        padding: 500px 100px 100px 100px;
+    }
+
+    /*ORADORES*/
+
+    .operador-ppal-1 {
+        width: 1072px;
+
+    }
+
+
+    .operador-ppal-3 {
+        padding: 0px 0px 50px 70px;
+
+    }
+
+    .card {
+        max-width: 300px;
+        max-height: 600px;
+        margin: 10px;
+
+    }
+
+    /*FORM*/
+
+    .orador-2 {
+        margin: 0%;
+        padding: 0px 200px 20px 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .enviar-1 {
+        background-color: rgba(150, 201, 62, 255);
+        border-color: rgba(150, 201, 62, 255);
+        width: 640px;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    /*BODY*/
+
+    body {
+        background-color: white;
+        position: relative;
+        max-width: 768px;
+        padding-bottom: 3em;
+        min-height: 100vh;
+    }
+
+    /*SECTION*/
+    * {
+        max-width: 768px;
+    }
+
+    .container-xxl {
+        max-width: 768px;
+    }
+
+
+    /*BANNER*/
+
+    .data-ppal-1 {
+        width: 768px;
+    }
+
+    .data-ppal-2 {
+        padding: 700px 100px 100px 100px;
+    }
+
+    /*ORADORES*/
+
+    .operador-ppal-1 {
+        width: 768px;
+
+    }
+
+
+    .operador-ppal-3 {
+        padding: 0px 0px 230px 50px;
+
+    }
+
+    .card {
+        max-width: 200px;
+        max-height: 800px;
+        margin: 10px;
+
+    }
+
+    /*FORM*/
+
+    .orador-2 {
+        margin: 0%;
+        padding: 0px 200px 20px 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .enviar-1 {
+        background-color: rgba(150, 201, 62, 255);
+        border-color: rgba(150, 201, 62, 255);
+        width: 640px;
+
+    }
+
+    /*INFO*/
+
+    .card-2 {
+        padding: 0%;
+        margin: 0%;
+        max-width: 768px;
+    }
+
+    .card-img-honolulu {
+        padding: 0%;
+        margin: 0%;
+        max-width: 768px;
+    }
+
+    .card-3 {
+        max-width: 768px;
+
+    }
+
+    /*FORM*/
+
+    .orador-2 {
+        margin: 0%;
+        padding: 0px 60px 20px 60px;
+
+    }
+
+    .enviar-1 {
+        width: 620px;
+
+    }
+
+    /*FOOTER*/
+
+
+    .wrapper {
+        padding: 10px 0px 10px 10px;
+    }
+
+}
